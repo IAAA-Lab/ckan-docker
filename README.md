@@ -84,12 +84,12 @@ more information.
 
 Use this if you are a maintainer and will not be making code changes to CKAN or to CKAN extensions
 
-Modify `.env` depending on your own needs.
+Modify `.env` depending on your own needs. For example, using the default values on the `.env` file will get you a working CKAN instance.
 
 Please note that when accessing CKAN directly (via a browser) ie: not going through NGINX you will need to make sure you have "ckan" set up
 to be an alias to localhost in the local hosts file. Either that or you will need to change the `.env` entry for `CKAN_SITE_URL`
 
-Using the default values on the `.env.example` file will get you a working CKAN instance. There is a sysadmin user created by default with the values defined in `CKAN_SYSADMIN_NAME` and `CKAN_SYSADMIN_PASSWORD`(`ckan_admin` and `test1234` by default). This should be obviously changed before running this setup as a public CKAN instance.
+There is a sysadmin user created by default with the values defined in `CKAN_SYSADMIN_NAME` and `CKAN_SYSADMIN_PASSWORD`(`ckan_odeco` and `odeco1234` by default). This should be obviously changed before running this setup as a public CKAN instance.
 
 To build the images:
 
