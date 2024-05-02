@@ -39,13 +39,13 @@ The non-CKAN images are as follows:
 
 The site is configured using environment variables that you can set in the `.env` file.
 
-## 2.  Installing Docker
+## 2.  Installing Docker (We used sudo command for all of our commands/commits)
 
 Install Docker by following the following instructions: or visit this page [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
 * Install Docker Engine on Ubuntu(updated version like 18.04)
   
-* Install using the apt repository
+* Install using the apt repository 
   
 * Setup Docker's apt repository
   
